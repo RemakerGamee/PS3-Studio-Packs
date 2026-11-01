@@ -2,7 +2,7 @@
 
 The shared list of **patch packs** for [RetroRemakes PS3 Studio](https://github.com/RemakerGamee/RetroRemakes-PS3-Studio). RetroRemakes PS3 Studio is a RetroRemakes product.
 
-A patch pack is a set of fixes for one game (for example a port's folder of numbered ps3recomp patches). In the Studio, open **Patch packs > Browse community packs** to see everything listed here and install it in one click. Every download is checked against the SHA-256 in this list.
+A patch pack is a set of fixes for one game (for example a port's folder of numbered ps3recomp patches). In the Studio, the **Community library** (Patch packs tab) lists everything here, keeps it in sync automatically, and installs the packs for your games. Every download is checked against the SHA-256 in this list.
 
 **Want to add yours?** See [CONTRIBUTING.md](CONTRIBUTING.md). It takes a few minutes, and your pack stays on your own GitHub with your credit and license.
 
