@@ -1,0 +1,16 @@
+name: Check pack list
+on:
+  pull_request:
+    paths: ["index.json"]
+  push:
+    branches: [main]
+    paths: ["index.json"]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python tools/validate_index.py --download
